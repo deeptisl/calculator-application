@@ -44,7 +44,7 @@
 }
 
 .circular-button{
-  border-radius: 100% 75% 75% 75%;
+  border-radius: 100% 100% 100% 100%;
   width: 50px;
   height: 50px;
   background-color:#ccc;  
