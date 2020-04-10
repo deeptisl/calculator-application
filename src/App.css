@@ -23,7 +23,6 @@
   position: fixed;
   margin-top: 5%;
   height: 50%;
-  /* border: 1px solid black; */
 }
 
 .calculation-area{
@@ -32,19 +31,17 @@
 .common-button-style{
   text-align: center;
   font-size: xx-large;
-  font-style: normal;
-  font-family: none;
   font-weight: bolder;
 }
 .circular-button-mathVal{
-  border-radius: 100% 100% 100% 100%;
+  border-radius: 50%;
   width: 50px;
   height: 50px;
   background-color: rgba(34, 205, 218, 0.555);
 }
 
 .circular-button{
-  border-radius: 100% 100% 100% 100%;
+  border-radius: 50%;
   width: 50px;
   height: 50px;
   background-color:#ccc;  
@@ -54,7 +51,7 @@
   margin: 3% 5%;
 }
 .square-button{
-  border-radius: 40% 40% 40% 40%;
+  border-radius: 40%;
   width: 125px;
   height: 50px;
   background-color: rgba(34, 205, 218, 0.555);

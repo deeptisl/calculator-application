@@ -7,20 +7,20 @@ const Button = (props) => {
     return (
         <div className="button-comp-section" onClick={props.changeRef}>
             {props.name === "=" ?
-                (<div className="common-button-style square-button">
+                (<button className="common-button-style square-button">
                     {props.name}
-                </div>)
+                </button>)
                 :
                 (
                     <div>
                         {props.mathVal === "true" ?
-                            (<div className="common-button-style circular-button-mathVal">
+                            (<button className="common-button-style circular-button-mathVal">
                                 {props.name}
-                            </div>)
+                            </button>)
                             :
-                            (<div className="common-button-style circular-button">
+                            (<button className="common-button-style circular-button">
                                 {props.name}
-                            </div>)
+                            </button>)
                         }
 
                     </div>
