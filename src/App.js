@@ -9,6 +9,7 @@ let possibleOperators = ["+", "-", "*", "/","%"];
 let flagFordot = false;
 let symbols = ["(-","."];
 let index = -1;
+
 class App extends Component {
 
   getCalculatedValueForOther = (lengthOfText) =>{
